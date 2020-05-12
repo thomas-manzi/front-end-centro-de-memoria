@@ -1,0 +1,24 @@
+.mx-auto {
+    text-align: center;
+}
+
+.all-browsers {
+    margin: 20px;
+    width: auto;
+    padding: 50px;
+    background-color: lightgray;
+    border: 15px pink;
+}
+
+.all-browsers>header,
+h4 {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.all-browsers>h4,
+p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+    margin-left: 50px;
+}
