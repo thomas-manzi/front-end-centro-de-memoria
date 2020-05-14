@@ -6,6 +6,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="./acervo.css">
+    <script src="acervo.js"></script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -47,27 +49,101 @@
             </ul>
         </div>
     </nav>
+
     <nav class="navbar navbar-dark bg-dark">
+
         <span class="navbar-brand mb-0 h1">Acervo</span>
+
         <nav>
+
             <div class="nav nav-tabs" id="nav-tab" role="tablist">
                 <a class="nav-item nav-link active" id="nav-artefatos-tab" data-toggle="tab" href="#nav-artefatos" role="tab" aria-controls="nav-artefatos" aria-selected="true">Artefatos</a>
                 <a class="nav-item nav-link" id="nav-documentos-tab" data-toggle="tab" href="#nav-documentos" role="tab" aria-controls="nav-documentos" aria-selected="false">Documentos</a>
                 <a class="nav-item nav-link" id="nav-fotografias-tab" data-toggle="tab" href="#nav-fotografias" role="tab" aria-controls="nav-fotografias" aria-selected="false">Fotografias</a>
             </div>
         </nav>
+
         <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="nav-artefatos" role="tabpanel" aria-labelledby="nav-artefatos-tab">...</div>
             <div class="tab-pane fade" id="nav-documentos" role="tabpanel" aria-labelledby="nav-documentos-tab">...</div>
             <div class="tab-pane fade" id="nav-fotografias" role="tabpanel" aria-labelledby="nav-fotografias-tab">...</div>
         </div>
+
     </nav>
-    <img src="https://i.picsum.photos/id/966/200/300.jpg" class="rounded float-left" alt="...">
-    <img src="https://i.picsum.photos/id/966/200/300.jpg" class="rounded float-right" alt="...">
-    <img src="https://i.picsum.photos/id/966/200/300.jpg" class="rounded float-center" alt="...">
-    <img src="https://i.picsum.photos/id/966/200/300.jpg" class="rounded float-right" alt="...">
-    <img src="https://i.picsum.photos/id/966/200/300.jpg" class="rounded mx-auto d-block" alt="...">
+
+
+    <div class="gallery" data-toggle="modal" data-target="#modelId">
+
+        <img src="https://i.picsum.photos/id/966/200/300.jpg" class="art-image" alt="...">
+
+        <div class="desc">Nome Artefato</div>
+    </div>
+
+    <div class="gallery">
+
+        <img src="https://i.picsum.photos/id/966/200/300.jpg" class="art-image" alt="...">
+
+        <div class="desc">Nome Artefato</div>
+    </div>
+
+    <div class="gallery">
+
+        <img src="https://i.picsum.photos/id/966/200/300.jpg" class="art-image" alt="...">
+
+        <div class="desc">Nome Artefato</div>
+    </div>
+
+    <div class="gallery">
+
+        <img src="https://i.picsum.photos/id/966/200/300.jpg" alt="...">
+
+        <div class="desc">Nome Artefato</div>
+    </div>
+
+    <div class="gallery">
+
+        <img src="https://i.picsum.photos/id/966/200/300.jpg" alt="...">
+
+        <div class="desc">Nome Artefato</div>
+    </div>
+
+    <div class="gallery">
+
+        <img src="https://i.picsum.photos/id/966/200/300.jpg" alt="...">
+
+        <div class="desc">Nome Artefato</div>
+    </div>
+
+    <div class="gallery">
+
+        <img src="https://i.picsum.photos/id/966/200/300.jpg" alt="...">
+
+        <div class="desc">Nome Artefato</div>
+    </div>
+
+    <!-- Button trigger modal -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" id="img01">
+                <div class="modal-header">
+                    <h5 class="modal-title">Nome Artefato</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+                <div class="modal-body">
+
+                </div>
+                <div id="caption"></div>
+            </div>
+        </div>
+    </div>
+
     <!-- Optional JavaScript -->
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
