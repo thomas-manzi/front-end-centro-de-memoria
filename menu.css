@@ -1,0 +1,11 @@
+.collapse a {
+    font-family: Playfair display;
+}
+
+.collapse .nav-item a:hover {
+    color: #009D4C !important;
+}
+
+img {
+    margin: 10px;
+}
