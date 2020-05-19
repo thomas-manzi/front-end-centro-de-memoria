@@ -102,3 +102,7 @@ div.desc {
     text-decoration: none;
     cursor: pointer;
 }
+
+.gallery .desc {
+    font-weight: bold;
+}

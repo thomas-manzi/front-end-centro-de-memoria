@@ -10,15 +10,23 @@
     border: 15px pink;
 }
 
-.all-browsers>header,
-h4 {
-    font-family: 'Balsamiq Sans', cursive;
+.all-browsers h4 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
 }
 
-.all-browsers>h4,
-p {
+.all-browsers p {
     margin-top: 30px;
     margin-bottom: 30px;
     margin-right: 0px;
     margin-left: 50px;
+    font-size: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+}
+
+.figure-caption {
+    font-size: 15px;
+    font-weight: bold;
 }
